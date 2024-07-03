@@ -1,0 +1,60 @@
+:root {
+    --main-font: Verdana, Geneva, Tahoma, sans-serif;
+    --bg-color: blanchedalmond;
+    --accent-color: rgb(127, 24, 24);
+}
+
+* {
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: var(--accent-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--bg-color);
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+
+
+h2,
+h3 {
+    font-weight: bold;
+    font-family: var(--main-font);
+    color: var(--accent-color);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.style-none {
+    list-style: none;
+}
+
+.home-ul {
+    text-align: center;
+}
+
+
+img {
+    width: 25em;
+    padding: 1em;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+section {
+    max-width: 40em;
+    padding: 2em;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
